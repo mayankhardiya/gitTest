@@ -9,21 +9,21 @@
 // myarray1.forEach((element, index) => {
 //     myarray1[index] = element * element;
 // });
-// console.log(myarray1);
-// let myarray2 = [1, 2, 3, 4, 5];
-// myarray2.map((element, index) => {
-//     myarray2[index] = element * element;
-// });
+ console.log(myarray1);
+ let myarray2 = [1, 2, 3, 4, 5];
+ myarray2.map((element, index) => {
+     myarray2[index] = element * element;
+ });
 // console.log(myarray2);
-// let myarray1 = [1, 2, 3, 4, 5];
-// const returnValue = myarray1.forEach((element) => {
-//     return element * element;
-// });
-// console.log(returnValue);
-// let myarray2 = [1, 2, 3, 4, 5, 6];
-// const returnValues = myarray2.map((elements) => {
-//     return elements * elements;
-// });
+ let myarray1 = [1, 2, 3, 4, 5];
+ const returnValue = myarray1.forEach((element) => {
+     return element * element;
+ });
+ console.log(returnValue);
+ let myarray2 = [1, 2, 3, 4, 5, 6];
+ const returnValues = myarray2.map((elements) => {
+     return elements * elements;
+ });
 //console.log(returnValues);
 
 // const students = [
